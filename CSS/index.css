@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+#navbar{
+    background-color: #fff;
+    box-shadow: 0 1px 1px #ccc;
+    position: fixed;
+    width: 100%;
+    font-size: 16px;
+    height: 3.875em;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
+    padding: .625em 6% 4em;
+    box-shadow: none;
+    font-family: Open Sans,sans-serif;
+    box-shadow:1px 0 3px;
+}
+.brand-nav-content{
+    width: 9em;
+    height: 100%;
+    text-decoration: none;
+}
+
+.brand-nav-content a{
+    display: block;
+}
+
+.brand-logo{
+    color: #0084ff;
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    font-family: Raleway,sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.08;
+    letter-spacing: -.9px;
+    text-align: left;
+}
+
+.brand-caption{
+    margin: 0;
+    font-family: Raleway,sans-serif;
+    font-size: .89em;
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: .9;
+    letter-spacing: .11px;
+    color: #000;
+}
+
+.blog-Drpodown-List{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    height: 100%;
+    font-size: 16px;
+    margin: 0.25em 3em;
+    width: 40%;
+    
+}
+
+.blog-Drpodown-List div{
+    width: 37%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    margin: 0;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .9px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dropdown-header{
+    display: flex;
+    font-size: 15px;
+}
+.dropIcon{
+    padding-top: 0;
+    padding-left: 8px;
+}
+
+#blog-items{
+    margin: 10px 20px;
+    padding: 20px 10px;
+    line-height:1.9em;
+    text-align: left;
+    list-style-type: none;
+    box-shadow:0 0 8px;
+    border-radius: 8px;
+    width:250px;
+    font-size: 15px;
+    background-color: #fff;
+}
+#blog-items li:hover{
+    background-color: rgb(233, 228, 228);
+}
+
+.right-side{
+    opacity: .5;
+    font-family: Raleway,sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: .5px;
+    text-align: left;
+    color: rgba(0,0,0,.6);
+    margin-top: 2.5em;
+    margin-right: 40px;
+}
+.go-to{
+    width: auto; 
+    font-size: 0.80em; 
+    padding: 0.3em 3em; 
+    box-shadow: none;
+    margin-top: 4em;
+    width: auto;
+    height: 40px;
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+    padding: 10px 29px;
+    margin-right: 16px;
+    color: #fff;
+    outline: none;
+    font-family: Raleway,sans-serif;
+    font-size: .9em;
+    font-weight: 600;
+    letter-spacing: .03em;
+    background: #0084ff;
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+}

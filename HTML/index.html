@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <script src="https://kit.fontawesome.com/92aa46a256.js" crossorigin="anonymous"></script>
+    <title>EdYoda | FREE online courses, tutorials to learn programming, technologies</title>
+</head>
+<body>
+    <header id="topbar">
+        <nav id="navbar">
+            <a class="brand-nav-content" href="index.html">
+                <div>
+                    <div class="brand-logo">EDYODA</div>
+                    <p class="brand-caption">Stories</p>
+                </div>
+            </a>
+            <div class="blog-Drpodown-List">
+                <div>
+                    <p class="dropdown-header" id="drop">Explore Categories <i class="fas fa-chevron-down dropIcon"></i></p>
+                    <ul id="blog-items">
+                        <li>Artificial Intelligence</li>
+                        <li>Cloud Computing</li>
+                        <li>DevOps</li>
+                        <li>Programming Languages</li>
+                        <li>Mobile Application Development</li>
+                        <li>Technology and Tools</li>
+                        <li>Get a Job in a Tech Company</li>
+                        <li>Others</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-side">
+                <div>
+                    <p>EdYoda is free learning and knowledge
+                        <br>
+                        sharing platform for techies
+                    </p>
+                </div>
+            </div>
+            <button class="go-to">Go To Main Website</button>
+        </nav>
+    </header>
+
+    <script>
+        var btn = document.getElementById("drop");
+        var list = document.getElementById("blog-items");
+        list.style.display = "none";
+        btn.addEventListener("click",(event)=>{
+            if(list.style.display=="none"){
+                list.style.display = "block";
+            }else{
+                list.style.display = "none";
+            }
+        })
+        window.onclick = function (e) {
+                if (!e.target.matches("#drop")) {
+                    if (list.style.display == "block") {
+                        list.style.display = "none";
+                    }
+                }
+            }
+    </script>
+</body>
+</html>
