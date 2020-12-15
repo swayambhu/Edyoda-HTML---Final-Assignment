@@ -223,16 +223,21 @@ body{
     background: #0084ff;
     background: linear-gradient(269deg,#0048ff,#0096ff);
 }
+
 .active{
     color: #fff;
     background: #0084ff;
     background: linear-gradient(269deg,#0048ff,#0096ff);
+}
+.category-list-items .menu-items li:hover{
+    color:#fff;
 }
 .category-list-items a li{
     padding:0 2px;
     margin:0 5px;
     color:#0084ff;
 }
+
 .blog-card-wrapper{
     display: inline-block;
     padding:auto;
